@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Gonzalo Pizarro B.">
+  <meta name="description" content="Portafolio de Developer de Gonzalo P.B.">
+  <meta name="keywords" content="HTML, CSS, JavaSript">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>
+    Gonzalo Pizarro | Full-Stack Developer
+  </title>
+  <!-- Favicon -->
+  <link rel="icon" type="imagen/x-icon" href="Imagenes/desarrollo-web.png">
+  <!--   Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Iconos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- google fonts   rubik dirt -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body background="/Imagenes/Fondo matrix-gdaf1c2511_1280.jpg" class="container-menu" data-bs-target="#navbar1"
+  data-bs-spy="scroll">
+  <header> 
+    <div class="container justify-content-center">    
+      <div class="row">
+        <div class="col-4" style="text-align: end;" >
+          <h4 class="align-items-center" data-section="desc-language" data-value="d-language" >
+            English
+          </h4>
+        </div>
+        <div class="col-8">        
+          <div id="flags" class="flags" >
+            <div class="flags__item" data-language="es">              
+              <img src="Imagenes/icons/es.svg" alt="español" width="50px" height="50px" />
+            </div>
+            <div class="flags__item" data-language="en" >
+              <img src="Imagenes/icons/us.svg" alt="english" width="50px" height="50px" style="margin:13px" />
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Barra de navegacion -->  
+  <nav id="navbar1" class="navbar navbar-expand-md navbar-light px-3">  <!--fixed-top -->
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="Imagenes/desarrollo-web.png" width="50" alt="Logo de la pagina web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-item-center nav-pills">
+          <li class="nav-item">
+            <a class="nav-link fs-3" href="#sobre-mi" data-section="menu" data-value="about-me">
+               About me            
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3" href="#hojadevida" data-section="menu" data-value="resume">
+               Resume              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3" href="#estudiosrealizados" data-section="menu" data-value="studies">
+               Studies
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3" href="#devtools" data-section="menu" data-value="devtools">
+               DevTools
+            </a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link fs-3" href="#contacto" data-section="menu" data-value="contact">
+               Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- Seccion hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img src="Imagenes/FotoGonzalo.jpg" class="hero-imagen-desarrollador " alt="Foto de Gonzalo">
+      <h1 data-section="profile" data-value="greeting">
+        Hi, my name's Gonzalo
+      </h1>      
+      <h2 data-section="profile" data-value="rol">
+        I'm Full-Stack software Developer
+      </h2>               
+    </div>
+    <div class="hero-inferior">
+      <img src="Imagenes/logos/logo general.jpg" class="hero-inferior-imagen img-fluid"
+        alt="Monitor, laptop, y logos de HTML, CSS, JavaScript">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo" data-section="profile" data-value="description-title">
+        Meet Gonzalo Pizarro B.
+      </h2>
+      <p>
+        <h4 data-section="profile" data-value="description">
+          I am a systems engineer and I have a diploma in Architecture with Microservices. It has been more than 30 years since I started in the world of computing and technology, Since the beginning I have been knowing and working in everything related to the world of technology such as: office automation, operating systems, programming languages, preventive and corrective maintenance of computers, Relational Database, design and implementation of computer networks and VPN to the development of Web sites and applications FrontEnd and BackEnd
+        </h4>
+      </p>      
+    </div>
+  </section>
+
+  <!-- Experiencia-->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <h2 class="seccion-titulo texto-negro" data-section="projects" data-value="project-title">
+        My recent projects
+      </h2>
+      <h3 class="seccion-descripcion" data-section="projects" data-value="project-subtitle">
+        These are some of the projects I have recently developed
+      </h3>
+      <div class="row">
+        <!-- Desarrollo web -->
+        <div class="columna col-12 col-md-6">
+          <!-- <i class="bi bi-laptop"></i> -->
+          <p class="experiencia-titulo">
+            <h4 data-section="projects" data-value="title-proj1">
+              Inventory control system for pharmacies
+            </h4>
+          </p>
+          <p>
+            <h5 data-section="projects" data-value="subtitle-proj1">
+            Inventory control system for pharmacies using .NET technology, made in a WPF project using the MVVM pattern
+          </h5>
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-danger">C#</span>
+            <span class="badge text-bg-primary">SQL Server</span>
+            <span class="badge text-bg-primary">EntityFramework</span>
+            <span class="badge text-bg-primary">WPF</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-6">
+          <!-- <i class="bi bi-laptop"></i> -->
+          <p class="experiencia-titulo">
+            <h4 data-section="projects" data-value="title-proj2">
+              Inventory control system for pharmacies (Web)
+            </h4>
+          </p>
+          <p>
+            <h5 data-section="projects" data-value="subtitle-proj2">
+              Inventory control system for pharmacies using .NET technology, made with Blazor framework (Server)
+            </h5>
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-danger">Blazor</span>
+            <span class="badge text-bg-primary">C#</span>
+            <span class="badge text-bg-primary">SQL Server</span>
+            <span class="badge text-bg-primary">EntityFramework</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <!--
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ex in massa viverra pulvinar.
+            Integer aliquam neque non magna finibus, ut placerat nunc cursus.
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-danger">Udemy</span>
+            <span class="badge text-bg-primary">Desarrollo web</span>
+            <span class="badge text-bg-primary">Blazor</span>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+
+<!-- Hoja de vida -->
+  <section id="hojadevida" class=" justify-content-start">
+    <h2 class="seccion-titulo texto-negro" data-section="experience" data-value="experience-title">
+      My resume
+    </h2>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne" >
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <div data-section="experience" data-value="experience-subtitle">
+            Jobs performed
+          </div>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job1-description">
+              IT systems and communications administrator in the Judicial Body of Tarija (Tarija, September 2021 – October 2022)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job2-description">
+              Systems Assistant at CIES Tarija Clinic (Tarija, May 2018 – November 2018)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job3-description">
+              Software developer at Ormuzd S.R.L. company (Tarija, January 2017, December 2017)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job4-description">
+              Computer Support Technician in Electrical Services of Tarija SETAR (Tarija, September 2015 – December 2015)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job5-description">
+              Computer science teacher at the Domingo Savio Technical Institute (Tarija, May 2014 - June 2014)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job6-description">
+              Systems Manager at Caja Petrolera de Salud (Health) (Yacuiba, November 2013 – January 2014)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job7-description">
+              IT Manager at the IT Unit of the Yacuiba Mayor's Office (March 2009 – December 2011)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job8-description">
+              Systems Administrator in Real Rights of Yacuiba (Yacuiba, January 2004 – August 2008)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job9-description">
+              Head of Computing at the COESYS company (Santa Cruz, October 2002 – February 2003)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job10-description">
+              Systems Operator at the South American Express company (Santa Cruz, May 2002 – August 2002)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job11-description">
+              MS-Office instructor at the INGENIUM company (Santa Cruz, November 2001 – March 2002)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job12-description">
+              Programmer Analyst in the Systems Department of the AeroSur Airlines (Santa Cruz, October 2000 – October 2001)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job13-description">
+              Systems Analyst in the Department of Information Technology in the mayor's office of Santa Cruz (March 1998 – June 1999)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job14-description">
+              Computer Programmer at the Department of Information Systems at NUR University (Santa Cruz, 1997)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job15-description">
+              Club and player registration system for the Fronton Ball Association of Santa Cruz (Santa Cruz 1997)
+            </li>
+            <li class="list-group-item exptrabajo" data-section="experience" data-value="job16-description">
+              Patient registration and control system for a surgeon (Santa Cruz, 1996)
+            </li>
+            <!--<li class="list-group-item exptrabajo">
+              Profesor de computación, Instituto ISCOT (Tarija, 1988-1989)
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>   
+  </div>
+</section>
+
+
+  <!-- Estudios realizados --> 
+  <section id="estudiosrealizados" class="testimonios seccion-clara">
+   <h2 class="seccion-titulo" data-section="studies" data-value="studies-title">
+     Studies
+   </h2>
+   <h3 class="seccion-descripcion" data-section="studies" data-value="studies-main">
+     Main studies
+   </h3>
+   <!-- Carrusel -->
+   <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/Logo NUR.jpg" alt="nur">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="main-title1">
+              Diploma in Architecture with Microservices, NUR University
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="main-subtitle1">
+             <p class="cliente">(Santa Cruz, October 2022)</p>             
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+         <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/Logo UAJMS.png" alt="UAJMS">
+         <p class="testimonio-texto">
+          <div data-section="studies" data-value="main-title2">
+            Diploma in Financial Audit, Juan Misael Saracho University
+          </div>
+         </p>
+         <div class="testimonio-info" data-section="studies" data-value="main-subtitle2">
+           <p class="cliente">(Tarija, July 2015)</p>  
+         </div>
+      </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/Logo NUR.jpg" alt="Study3">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="main-title3">
+              Bachelor of Systems Engineering, NUR University
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="main-subtitle3">
+             <p class="cliente">(Santa Cruz, February 2003)</p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+ </section>
+
+
+ <section id="otros-estudios" class="testimonios seccion-clara">
+   <!-- <h2 class="seccion-titulo">
+     Other Studies
+   </h2> -->
+   <h3 class="seccion-descripcion" data-section="studies" data-value="studies-other">
+     Other studies
+   </h3>
+   <!-- Carrusel -->
+   <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/flutter.png" alt="nur">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="other-title1">
+              Flutter
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="other-subtitle1">
+             <p class="cliente">(UDEMY, Julio 2023)</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+         <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/Csharp.png" alt="UAJMS">
+         <p class="testimonio-texto">
+          <div data-section="studies" data-value="other-title2">
+            Programming in C# 10
+          </div>
+         </p>
+         <div class="testimonio-info" data-section="studies" data-value="other-subtitle2">
+           <p class="cliente">(UDEMY, January 2023)</p>  
+         </div>
+      </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/logo webapi.png" alt="Study3">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="other-title3">
+              Building RESTful Web APIs with ASP.NET Core 6
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="other-subtitle3">
+             <p class="cliente">(UDEMY, January 2023)</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/logo hacking.jpg" alt="Study3">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="other-title4">
+              Master in Computer Security. Complete Hacking Course
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="other-subtitle4">
+             <p class="cliente">(UDEMY, November 2022)</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/Blazor.png" alt="Study3">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="other-title5">
+              Blazor 
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="other-subtitle5">
+             <p class="cliente">(UDEMY, August 2021)</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/logo asp.net.jpg" alt="Study3">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="other-title6">
+              ASP.NET 
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="other-subtitle6">
+             <p class="cliente">(UDEMY, July 2021)</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="Imagenes/logos/logo itu.png" alt="Study3">
+           <p class="testimonio-texto">
+            <div data-section="studies" data-value="other-title7">
+              Virtual private networks
+            </div>
+           </p>
+           <div class="testimonio-info" data-section="studies" data-value="other-subtitle7">
+             <p class="cliente">(International Telecommunication Union, December 2007)</p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+ </section>
+
+
+  <!-- Herramientas de desarrollo -->
+  <section id="devtools" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro" data-section="devtools" data-value="devtools-title">
+      Development tools
+    </h2>    
+    <!-- Galeria de DevTools -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Tool VS -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <center>
+              <img src="Imagenes/logos/logo vs.png" alt="VS" style="width:300px; height:300px">
+            </center>
+            <div class="overlay">
+              <p>Visual Studio</p>
+              <!--
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>                
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+        <!-- Tool VS Code -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <center>
+              <img src="Imagenes/logos/logo vs code.jpg" alt="VSCode" style="width:300px; height:300px">
+            </center>
+            <div class="overlay">
+              <p>Visual Studio Code</p>
+              <!--
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>                
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+        <!-- Tool Cursor -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <center>
+              <img src="Imagenes/logos/logo cursor.svg" alt="Cursor" style="width:300px; height:300px">
+            </center>
+            <div class="overlay">
+              <p>Cursor (AI)</p>
+              <!--
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>                
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo" data-section="contacts" data-value="contact-title">
+            Let's talk!
+          </div>
+          <div class="col-12 col-md-4 descripcion" data-section="contacts" data-value="contact-subtitle">
+            Contact me to start a web, desktop or mobile development project
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:gpizarrob368@hotmail.com" target="_blank" rel="noopener noreferrer">
+              <button type="button">
+                Contact
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+<!--
+          <a href="mailto:gpizarrob368@hotmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+          -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Pie de pagina -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="Imagenes/desarrollo-web.png" alt="Logo del portafolio">
+    <p class="footer-texto text-center">
+      <div data-section="footer" data-value="footer-text1">
+         Always ready for new challenges
+      </div>
+      <br>
+      <div data-section="footer" data-value="footer-text2">
+         Let's create a project together
+      </div>
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <!--
+      <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      -->
+      <a href="https://github.com/gonzalopb369" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/gonzalopizarrob/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/gonzaloPizarroB/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <!--
+      <a href="https:/www.instagram.com/freecodecamp" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      -->
+      <a href="mailto:gpizarrob368@hotmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+
+    </div>
+    <div class="derechos-de-autor">
+      Gonzalo P.B. (2022) &#169;
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

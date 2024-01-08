@@ -1,0 +1,92 @@
+{
+    "desc-language": {
+        "d-language" : "Español"
+    },
+
+    "menu" : {
+        "about-me": "Sobre mí",
+        "resume": "Hoja de vida",
+        "studies": "Estudios realizados",
+        "devtools": "Herramientas",
+        "contact": "Contacto"
+    },
+    
+    "profile": {
+        "greeting": "Hola, soy Gonzalo",
+        "rol": "soy Desarrollador de software Full-Stack",
+        "description-title": "Conoce a Gonzalo Pizarro B.",
+        "description": "Soy Ingeniero de Sistemas y tengo un diplomado en Arquitectura con Microservicios. Hace más de 30 años que empecé en el mundo de la computación y tecnología desde el principio he venido conociendo y trabajando en todo  lo referente al mundo de la tecnología como ser: ofimática, sistemas operativos, lenguajes de programación,  mantenimiento preventivo y correctivo de computadoras, Base de datos Relacionales, diseño e implementación de redes de computadoras y VPN, hasta el desarrollo de sitios y aplicaciones Web, FrontEnd y BackEnd"
+    },
+
+    "projects":{
+        "project-title": "Mis proyectos recientes",
+        "project-subtitle": "Estos son algunos de los proyectos que he desarrollado recientemente",
+        "title-proj1": "Sistema de control de inventario para farmacias",
+        "subtitle-proj1": "Sistema de control de inventario para farmacias usando tecnología .NET, realizado en proyecto WPF usando el patrón MVVM",
+        "title-proj2": "Sistema de control de inventario para farmacias (Web)",
+        "subtitle-proj2": "Sistema de control de inventario para farmacias usando tecnología .NET, realizado con framework Blazor (Server)"
+    },
+
+    "experience": {
+        "experience-title": "Mi hoja de vida",
+        "experience-subtitle": "Cargos desempeñados",
+        "job1-description": "Administrador de Sistemas Informáticos y Comunicaciones en la Dirección Administrativa y Financiera del Órgano  Judicial de Tarija (Tarija, septiembre 2021 – octubre 2022)",
+        "job2-description": "Asistente de Sistemas en Clínica CIES Regional (Tarija, mayo 2018 – noviembre 2018)",
+        "job3-description": "Desarrollador de software en la empresa Ormuzd S.R.L. (Tarija, Enero 2017 - Diciembre 2017)",
+        "job4-description": "Técnico de Apoyo Informático en Servicios Eléctricos de Tarija SETAR (Tarija Septiembre 2015 – Diciembre/2015)",
+        "job5-description": "Desarrollador de software en la empresa Ormuzd S.R.L. (Tarija, Enero 2017 - Diciembre 2017",
+        "job6-description": "Docente del área informática en el Instituto Técnico Domingo Savio (Tarija, mayo 2014 - junio/2014)",
+        "job7-description": "Encargado de Sistemas en la Caja Petrolera de Salud de Yacuiba (Noviembre 2013 – Enero 2014)",
+        "job8-description": "Responsable de Informática en la Unidad de Informática de la oficialía mayor de Desarrollo Humano y cultura del Gobierno Municipal de Yacuiba (Marzo 2009 – Diciembre 2011)",
+        "job9-description": "Administrador de Sistemas en el Registro Provincial de Derechos Reales en la Provincia Gran Chaco (Yacuiba, Enero 2004 – Agosto 2008)",
+        "job10-description": "Jefe de Cómputo en la empresa COESYS (Santa Cruz, Octubre 2002 – Febrero 2003)",
+        "job11-description": "Operador de Sistemas en la compañía South American Express SAE (Santa Cruz, Mayo 2002 – Agosto 2002)",
+        "job12-description": "Instructor de MS-Office en la empresa INGENIUM (Santa Cruz, Noviembre. 2001 – Marzo 2002)",
+        "job13-description": "Analista Programador en el Departamento de Sistemas de la Compañía AeroSur S.A. (Santa Cruz, Octubre 2000 – Octubre 2001)",
+        "job14-description": "Analista de Sistemas en el Departamento de Informática del Gobierno Municipal de Santa Cruz de la Sierra (Marzo 1998 – Junio 1999)",
+        "job15-description": "Programador de Computadoras en el Departamento de Sistemas de Información de la Universidad NUR (Santa Cruz, 1997)",
+        "job16-description": "Sistema de registro de clubes y jugadores para la Asociación Cruceña de Pelota Frontón (Santa Cruz 1997)",
+        "job17-description": "Sistema de registro y control de pacientes para un médico cirujano (Santa Cruz, 1996)"
+    },
+
+    "studies": {
+        "studies-title": "Estudios",
+        "studies-main": "Estudios principales",
+        "studies-others": "Otros estudios",
+        "main-title1": "Diplomado en Arquitectura con microservicios, Universidad NUR",
+        "main-subtitle1": "(Santa Cruz, Octubre 2022)",
+        "main-title2": "Diplomado en Auditoría Financiera, Universidad Juan Misael Saracho",
+        "main-subtitle2": "(Tarija, Julio 2015)",
+        "main-title3": "Titulado en Ingeniería de Sistemas de la Universidad NUR",
+        "main-subtitle3": "(Santa Cruz, Febrero 2003)",
+        "studies-other": "Otros estudios",
+        "other-title1": "Flutter",
+        "other-subtitle1": "(UDEMY, Julio 2023)",
+        "other-title2": "Programando en C# 10 – de Principiante a Profesional",
+        "other-subtitle2": "(UDEMY, Enero 2023)",
+        "other-title3": "Construyendo Web APIs RESTful con ASP.NET Core 6",
+        "other-subtitle3": "(UDEMY, Enero 2023)",
+        "other-title4": "Master en Seguridad Informática. Curso completo de Hacking",
+        "other-subtitle4": "(UDEMY, Noviembre 2022)",
+        "other-title5": "Blazor",
+        "other-subtitle5": "(UDEMY, Agosto 2021)",
+        "other-title6": "ASP.NET",
+        "other-subtitle6": "(UDEMY, Julio 2021)",
+        "other-title7": "Redes privadas virtuales",
+        "other-subtitle7": "(Union Internacional de Telecomunicaciones, Diciembre 2007)"
+    },
+
+    "devtools": {
+        "devtools-title": "Herramientas de desarrollo"
+    },
+
+    "contacts": {
+        "contact-title": "Hablemos de proyectos",
+        "contact-subtitle": "Contáctame para inciar un proyecto de desarrollo de software Web, desktop o movil"
+    },
+
+    "footer": {
+        "footer-text1": "Siempre listo para nuevos desafíos",
+        "footer-text2": "Vamos a crear un proyecto juntos"
+    }
+}

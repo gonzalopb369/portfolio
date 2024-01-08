@@ -1,0 +1,90 @@
+{
+    "desc-language": {
+        "d-language" : "English"
+    },
+
+    "menu" : {
+        "about-me": "About me",
+        "resume": "Resume",
+        "studies": "Studies",
+        "devtools": "DevTools",
+        "contact": "Contact"
+    },
+
+    "profile": {
+        "greeting": "Hi, my name's Gonzalo",
+        "rol": "I'm Full-Stack software developer",
+        "description-title": "Meet Gonzalo Pizarro B.",
+        "description": "I am a systems engineer and I have a diploma in Architecture with Microservices. It has been more than 30 years since I started in the world of computing and technology, Since the beginning I have been knowing and working in everything related to the world of technology such as: office automation, operating systems, programming languages, preventive and corrective maintenance of computers, Relational Database, design and implementation of computer networks and VPN to the development of Web sites and applications FrontEnd and BackEnd"
+    },
+
+    "projects":{
+        "project-title": "My recent projects",
+        "project-subtitle": "These are some of the projects I have recently developed",
+        "title-proj1": "Inventory control system for pharmacies",
+        "subtitle-proj1": "Inventory control system for pharmacies using .NET technology, made in a WPF project using the MVVM pattern",
+        "title-proj2": "Inventory control system for pharmacies (Web)",
+        "subtitle-proj2": "Inventory control system for pharmacies using .NET technology, made with Blazor framework (Server)"
+    },
+
+    "experience": {
+        "experience-title": "My resume",
+        "experience-subtitle": "Jobs performed",
+        "job1-description": "IT systems and communications administrator in the Judicial Body of Tarija (Tarija, September 2021 – October 2022)",
+        "job2-description": "Systems Assistant at CIES Tarija Clinic (Tarija, May 2018 – November 2018)",
+        "job3-description": "Software developer at Ormuzd S.R.L. company (Tarija, January 2017, December 2017)",
+        "job4-description": "Computer Support Technician in Electrical Services of Tarija SETAR (Tarija, September 2015 – December 2015)",        
+        "job5-description": "Computer science teacher at the Domingo Savio Technical Institute (Tarija, May 2014 - June 2014)",        
+        "job6-description": "Systems Manager at Caja Petrolera de Salud (Health) (Yacuiba, November 2013 – January 2014)",        
+        "job7-description": "IT Manager at the IT Unit of the Yacuiba Mayor's Office (March 2009 – December 2011)",        
+        "job8-description": "Systems Administrator in Real Rights of Yacuiba (Yacuiba, January 2004 – August 2008)",        
+        "job9-description": "Head of Computing at the COESYS company (Santa Cruz, October 2002 – February 2003)",        
+        "job10-description": "Systems Operator at the South American Express company (Santa Cruz, May 2002 – August 2002)",        
+        "job11-description": "MS-Office instructor at the INGENIUM company (Santa Cruz, November 2001 – March 2002)",        
+        "job12-description": "Programmer Analyst in the Systems Department of the AeroSur Airlines (Santa Cruz, October 2000 – October 2001)",        
+        "job13-description": "Systems Analyst in the Department of Information Technology in the mayor's office of Santa Cruz (March 1998 – June 1999)",        
+        "job14-description": "Computer Programmer at the Department of Information Systems at NUR University (Santa Cruz, 1997)",        
+        "job15-description": "Club and player registration system for the Fronton Ball Association of Santa Cruz (Santa Cruz 1997)",        
+        "job16-description": "Patient registration and control system for a surgeon (Santa Cruz, 1996)"        
+    },
+
+    "studies": {
+        "studies-title": "Studies",
+        "studies-main": "Main studies",       
+        "main-title1": "Diploma in Architecture with Microservices, NUR University",
+        "main-subtitle1": "(Santa Cruz, October 2022)",
+        "main-title2": "Diploma in Financial Audit, Juan Misael Saracho University",
+        "main-subtitle2": "(Tarija, July 2015)",
+        "main-title3": "Bachelor of Systems Engineering, NUR University",
+        "main-subtitle3": "(Santa Cruz, February 2003)",
+        "studies-other": "Other studies",
+        "other-title1": "Flutter",
+        "other-subtitle1": "(UDEMY, July 2023)",
+        "other-title2": "Programming in C# 10",
+        "other-subtitle2": "(UDEMY, January 2023)",
+        "other-title3": "Building RESTful Web APIs with ASP.NET Core 6",
+        "other-subtitle3": "(UDEMY, January 2023)",
+        "other-title4": "Master in Computer Security. Complete Hacking Course",
+        "other-subtitle4": "(UDEMY, November 2022)",
+        "other-title5": "Blazor",
+        "other-subtitle5": "(UDEMY, August 2021)",
+        "other-title6": "ASP.NET",
+        "other-subtitle6": "(UDEMY, July 2021)",
+        "other-title7": "Virtual private networks",
+        "other-subtitle7": "(International Telecommunication Union, December 2007)"
+    },
+
+    "devtools": {
+        "devtools-title": "Development tools"
+    },
+
+    "contacts":{
+        "contact-title": "Let's talk",
+        "contact-subtitle": "Contact me to start a web, desktop or mobile development project"
+    },
+
+    "footer": {
+        "footer-text1": "Always ready for new challenges",
+        "footer-text2": "Let's create a project together"
+    }
+}
