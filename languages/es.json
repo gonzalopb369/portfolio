@@ -3,6 +3,10 @@
         "d-language" : "Español"
     },
 
+    "visitor-counter": {
+        "counter-label": "Sos el visitante #"
+    },
+
     "menu" : {
         "about-me": "Sobre mí",
         "resume": "Hoja de vida",

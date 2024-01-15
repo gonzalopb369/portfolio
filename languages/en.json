@@ -3,6 +3,10 @@
         "d-language" : "English"
     },
 
+    "visitor-counter": {
+        "counter-label": "You are the visitor #"
+    },
+
     "menu" : {
         "about-me": "About me",
         "resume": "Resume",
