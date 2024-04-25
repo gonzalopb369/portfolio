@@ -28,7 +28,9 @@
         "title-proj1": "Sistema de control de inventario para farmacias",
         "subtitle-proj1": "Sistema de control de inventario para farmacias usando tecnología .NET, realizado en proyecto WPF usando el patrón MVVM",
         "title-proj2": "Sistema de control de inventario para farmacias (Web)",
-        "subtitle-proj2": "Sistema de control de inventario para farmacias usando tecnología .NET, realizado con framework Blazor (Server)"
+        "subtitle-proj2": "Sistema de control de inventario para farmacias usando tecnología .NET, realizado con framework Blazor (Server)",
+        "title-proj3": "Aplicación Web para el manejo de bienes raices",
+        "subtitle-proj3": "Aplicación Web para el manejo de bienes raices usando tecnología .NET, desarrollado en ASP.NET Core con Blazor web assembly"
     },
 
     "experience": {

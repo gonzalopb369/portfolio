@@ -28,7 +28,9 @@
         "title-proj1": "Inventory control system for pharmacies",
         "subtitle-proj1": "Inventory control system for pharmacies using .NET technology, made in a WPF project using the MVVM pattern",
         "title-proj2": "Inventory control system for pharmacies (Web)",
-        "subtitle-proj2": "Inventory control system for pharmacies using .NET technology, made with Blazor framework (Server)"
+        "subtitle-proj2": "Inventory control system for pharmacies using .NET technology, made with Blazor framework (Server)",
+        "title-proj3": "Web App for Real estate management",
+        "subtitle-proj3": "Web application for real state managment using .NET technology, made in ASP.NET Core with Blazor web assembly (only spanish)"
     },
 
     "experience": {
