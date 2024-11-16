@@ -30,7 +30,9 @@
         "title-proj2": "Inventory control system for pharmacies (Web)",
         "subtitle-proj2": "Inventory control system for pharmacies using .NET technology, made with Blazor framework (Server)",
         "title-proj3": "Web App for Real estate management",
-        "subtitle-proj3": "Web application for real state managment using .NET technology, made in ASP.NET Core with Blazor web assembly (only spanish)"
+        "subtitle-proj3": "Web application for real state managment using .NET technology, made in ASP.NET Core with Blazor web assembly (only spanish)",
+        "title-proj4": "Mobile App for Android",
+        "subtitle-proj4": "App mobile developed using .NET 8 technology, Maui Blazor and ASP.NET. It calls to API service deployed in Azure, available only in Spanish."
     },
 
     "experience": {
