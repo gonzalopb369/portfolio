@@ -320,11 +320,11 @@ h1 {
 }
 
 .testimonios .carousel {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .carousel-item {
-    height: 500px;
+    height: 700px;
 }
 
 .carousel-item .container {
@@ -337,8 +337,8 @@ h1 {
 }
 
 .testimonio-imagen {
-    height: 150px;
-    width: 150px;
+    height: 500px;
+    width: 500px;
     margin: 10px 10px 20px 10px;
 }
 
