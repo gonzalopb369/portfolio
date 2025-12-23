@@ -505,6 +505,27 @@ footer {
 }
 
 
-
+.testimonial {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: #f9f9f9;
+    max-width: 570px;
+    margin: 20px auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .testimonial .avatar {
+    width: 110px;
+    height: 80px;
+    border-radius: 20%;
+  }
+  .testimonial h4 {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  .testimonial p {
+    font-style: italic;
+    color: #555;
+  }
 
 
